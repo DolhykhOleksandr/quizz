@@ -25,4 +25,4 @@ npm start
 ```
 
 Now your brouser will automatically open the page, if nothing change, open your brouser and type in search string:
-[http://localhost:3000/]
+[http://localhost:3000/](http://localhost:3000/)
