@@ -1,28 +1,15 @@
-To run project in your device follow this few steps:
+How to start with docker:
 
-Open command prompt in folder, where you want your app to be located, after this enter command:
-
-```
-git clone https://github.com/DolhykhOleksandr/quizz.git
-```
-
-Go to the aplication directory: open project in IDE and open treminal here, enter next command:
+Build project image. Use command:
 
 ```
-cd quizz
+docker build -t <image_name> .
 ```
 
-Install all dapendencies: stay in the terminal and type the next one:
+Run project image by command:
 
 ```
-npm install --save-dev @babel/plugin-proposal-private-property-in-object
+docker run -d -p 3000:3000 --name <container_name> <image_name>
 ```
 
-After all dependencies has downloaded, enter this command to run React app:
-
-```
-npm start
-```
-
-Now your brouser will automatically open the page, if nothing change, open your brouser and type in search string:
-[http://localhost:3000/](http://localhost:3000/)
+The React application will be accessible at: http://localhost:3000/
