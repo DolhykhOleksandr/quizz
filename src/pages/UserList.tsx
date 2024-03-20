@@ -1,6 +1,5 @@
 import React from 'react';
 import aboutPageCompanyImg from '../assets/about-page-company-img.png'
-import {Link} from "react-router-dom";
 import './UserList.css'
 import UserItem from "../components/UserItem";
 
@@ -12,9 +11,7 @@ const UserList = () => {
         {id: 3, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string"},
         {id: 4, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string"},
         {id: 5, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string"},
-        {id: 6, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string" },
-        {id: 7, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string"},
-
+        {id: 6, "user_firstname": "string", "user_lastname": "string", "user_avatar": aboutPageCompanyImg, "user_status": "string", "user_city": "string"},
 
     ]
     const users = userList.map((item) =>
