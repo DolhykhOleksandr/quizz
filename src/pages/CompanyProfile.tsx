@@ -10,8 +10,8 @@ const companyList = [
     {id: 3,  "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg,  "company_city": "string", "company_phone": "string"},
     {id: 4,  "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg,  "company_city": "string", "company_phone": "string"},
     {id: 5,  "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg,  "company_city": "string", "company_phone": "string"},
-    {id: 6,  "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg,  "company_city": "string", "company_phone": "string"},
-
+    {id: 6, "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg, "company_city": "string", "company_phone": "string" },
+    {id: 7,  "company_email": "string", "company_name": "string", "company_avatar": aboutPageCompanyImg,  "company_city": "string", "company_phone": "string"},
 ]
 
 const CompanyProfile = () => {

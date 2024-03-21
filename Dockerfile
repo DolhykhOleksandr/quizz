@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
  # Set the working directory
-WORKDIR /quizz
+WORKDIR /app
 
  # Copy the package.json and package-lock.json files to the container
 COPY package*.json ./
